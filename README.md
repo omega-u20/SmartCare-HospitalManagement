@@ -182,14 +182,19 @@ You can open the notebooks using:
 
 ### 4. Install Required Libraries
 
-If required, install the common Python libraries:
+Install all the required Python libraries using the `requirements.txt` file:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install -r requirements.txt
 ```
 
-Additional libraries can be installed based on the requirements of individual notebooks.
+### 5. Launch the Dashboard Locally
 
+To launch the SmartCare AI Prototype dashboard locally, run the following command using Streamlit:
+
+```bash
+streamlit run app.py
+```
 ---
 
 ## Machine Learning Pipeline
