@@ -1,5 +1,7 @@
 # SmartCare – Hospital Management System
 
+🚀 **[View GitHub Repository](https://github.com/omega-u20/SmartCare-HospitalManagement)** | 🌐 **[Live Demo (Add Link Here)](#)**
+
 ## Overview
 
 SmartCare is an intelligent Hospital Management System designed to improve healthcare service management through data-driven technologies and Artificial Intelligence (AI).
@@ -83,21 +85,14 @@ The main objectives of the SmartCare project are to:
 ```text
 SmartCare-HospitalManagement/
 │
-├── README.md
-│
-├── Task2_Dataset_Understanding.ipynb
-│
-├── Task3_Preprocessing_Feature_Engineering.ipynb
-│
-├── Task4_EDA.ipynb
-│
-├── Task5_Model_Development.ipynb
-│
-├── Task6_Model_Evaluation.ipynb
-│
-├── Task7_Explainable_AI.ipynb
-│
-└── Task8_AI_Prototype_Development.ipynb
+├── app.py                   # Main Streamlit Dashboard Application
+├── requirements.txt         # Python Dependencies
+├── .streamlit/              # Custom UI configurations (Glassmorphism & Theme)
+├── artifacts/               # Trained Machine Learning Models & Processed Data
+├── tasks/                   # Data Science Workflow
+│   ├── notebooks/           # Jupyter Notebooks (EDA, Modeling, XAI)
+│   └── scripts/             # Python Scripts
+└── README.md
 ```
 
 ---
@@ -171,13 +166,12 @@ git clone https://github.com/omega-u20/SmartCare-HospitalManagement.git
 cd SmartCare-HospitalManagement
 ```
 
-### 3. Open the Notebooks
+### 3. Open the Notebooks (Optional)
 
-You can open the notebooks using:
+If you want to view how the AI models were trained, you can find all the Jupyter notebooks inside the `tasks/notebooks/` directory. You can open them using:
 
 * Google Colab
 * Jupyter Notebook
-* JupyterLab
 * VS Code
 
 ### 4. Install Required Libraries
