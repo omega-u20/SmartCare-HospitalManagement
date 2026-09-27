@@ -1,6 +1,6 @@
 # SmartCare – Hospital Management System
 
-🚀 **[View GitHub Repository](https://github.com/omega-u20/SmartCare-HospitalManagement)** | 🌐 **[Live Demo (Add Link Here)](#)**
+**[Live Demo (Add Link Here)](#)**
 
 ## Overview
 
