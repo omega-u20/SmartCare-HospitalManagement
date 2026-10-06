@@ -1,6 +1,29 @@
+![Google Colab](https://img.shields.io/badge/Google%20Colab-%23F9A825.svg?style=for-the-badge&logo=googlecolab&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 # SmartCare – Hospital Management System
 
-**[Live Demo (Add Link Here)](#)**
+The live demo can be accessed via the iframe in the last cell of google collab file.
+If you really want to access it separately use the following link 
+
+**[Live Demo](https://smartcare-hospitalmanagement-xyz.streamlit.app/)**
+
+If it is not working, perform following steps.
+
+1. Clone the repository
+```
+git clone https://github.com/omega-u20/SmartCare-HospitalManagement.git
+cd SmartCare-HospitalManagement
+```
+
+2. Install the dependencies
+```
+pip install -r requirements.txt
+```
+
+3. Run streamlit
+```
+streamlit run app.py
+```
 
 ## Overview
 
